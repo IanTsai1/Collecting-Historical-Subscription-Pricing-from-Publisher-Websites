@@ -15,7 +15,7 @@ Upon completion, this project produces:
 1. **`historical_pricing_snapshots.csv`** – Final CSV dataset containing all collected pricing information
     - currently in progress, due to server error in accessing Wayback Machine API (possible API limit)
 2. **Three Python scripts** – Self-contained, documented, runnable code
-3. **`CHALLENGES.md`** – Documentation of challenges, deviations, and assumptions
+3. **`CHALLENGES.md`** – Documentation of challenges
 
 ---
 
