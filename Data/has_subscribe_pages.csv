@@ -1,0 +1,186 @@
+domain_normalized,domain,pricing_url,pricing_url_method,dynamic_components,popup_overlay,notes
+afr com,afr.com,https://subscribe.afr.com,common_path,no,no,
+ajc com,ajc.com,https://www.ajc.com/start,common_path,yes,no,likely JS-rendered content
+archaeology org,archaeology.org,https://archaeology.org/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+architecturaldigest com,architecturaldigest.com,https://www.architecturaldigest.com/v2/offers/arda01029?source=SITE_0_HCL_ARD_MAGSUBHOME_0_CAMPAIGN_ROTATION_2024_ZZ,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+arstechnica com,arstechnica.com,https://arstechnica.com/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+azcentral com,azcentral.com,https://subscribe.azcentral.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+barandbench com,barandbench.com,https://www.barandbench.com/subscription,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+bbc com,bbc.com,https://www.bbc.com/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+bigthink com,bigthink.com,https://bigthink.com/subscribe,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+boston com,boston.com,https://www.boston.com,common_path,no,no,
+bostonglobe com,bostonglobe.com,https://subscribe.bostonglobe.com//B1209,common_path,no,no,
+br tradingview com,br.tradingview.com,https://br.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+buffalonews com,buffalonews.com,https://subscribe.buffalonews.com/subscribe/?Domain=buffalonews.com&SubscriberLevel=DOP,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+businessinsider com,businessinsider.com,https://www.businessinsider.com/subscription,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+businesslive co za,businesslive.co.za,https://www.businessday.co.za/checkout,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+businesstoday in,businesstoday.in,https://subscriptions.intoday.in/businesstoday?utm_source=website,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+bwoodtadka com,bwoodtadka.com,https://bwoodtadka.com/membership-join,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+caranddriver com,caranddriver.com,https://store.caranddriver.com/car-and-driver-magazine-subscription.html?source=cdb_edit_subscribe_vanityurl,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI | physical magazine/newspaper subscription
+channel3000 com,channel3000.com,https://www.channel3000.com/madison-magazine/about-us/manage-subscriptions,homepage_link,yes,yes,likely JS-rendered content | possible modal or overlay UI | physical magazine/newspaper subscription
+chicago suntimes com,chicago.suntimes.com,https://subscribe.clarionledger.com/offers,common_path,no,no,
+chicagotribune com,chicagotribune.com,https://subscription.chicagotribune.com/TemplateA?coupon=Promo%20Code,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+cincinnati com,cincinnati.com,https://subscribe.cincinnati.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+clarionledger com,clarionledger.com,https://cm.clarionledger.com/about-your-subscription,homepage_link,no,yes,possible modal or overlay UI
+cleveland com,cleveland.com,https://www.cleveland.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+cnn com,cnn.com,https://www.cnn.com/subscription,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+coingecko com,coingecko.com,https://www.coingecko.com/en/premium/pricing,homepage_link,,,pricing page inaccessible (status=429)
+cyclingnews com,cyclingnews.com,https://www.cyclingnews.com/subscription,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+dailycaller com,dailycaller.com,https://dailycaller.com/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+dailykos com,dailykos.com,https://www.dailykos.com/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+dailymail co uk,dailymail.co.uk,https://www.mailsubscriptions.co.uk/info/393633/get-more-from-the-daily-mail,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+dailystar co uk,dailystar.co.uk,https://www.reachsubs.co.uk/pc/STA,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI | physical magazine/newspaper subscription
+dailywire com,dailywire.com,https://get.dailywire.com,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+dallasnews com,dallasnews.com,https://www.dallasnews.com/subscribe/join,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+deccanchronicle com,deccanchronicle.com,https://www.deccanchronicle.com/pricing,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+deraktionaer de,deraktionaer.de,https://www.boersenmedien.de/magazine/deraktionaer/einzelausgaben/1,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+deseret com,deseret.com,https://pages.deseret.com/subscribe,common_path,yes,no,likely JS-rendered content
+desertsun com,desertsun.com,https://subscribe.desertsun.com/offers,homepage_link,no,yes,possible modal or overlay UI
+detroitnews com,detroitnews.com,https://subscribe.detroitnews.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+diepresse com,diepresse.com,https://abo.diepresse.com/produkt/epe0300_swa_ka_ab_digital_2/?utm_source=toc&utm_campaign=upselling&utm_medium=link,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+dispatch com,dispatch.com,https://subscribe.dispatch.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+dorsetecho co uk,dorsetecho.co.uk,https://www.dorsetecho.co.uk/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+dp ru,dp.ru,https://www.dp.ru/lk/newspaper,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+echolive ie,echolive.ie,https://www.echolive.ie/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+edition cnn com,edition.cnn.com,https://edition.cnn.com/subscription,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+eliteprospects com,eliteprospects.com,https://www.eliteprospects.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+elle com,elle.com,https://shop.elle.com/elle-all-access-membership-1.html?source=elm_edit_subscribe_vanityurl,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+entrepreneur com,entrepreneur.com,https://subscription.entrepreneur.com/pubs/EN/ENT/ENT-Self_US-CAN-INT_New2025.jsp?cds_page_id=282945&cds_mag_code=ENT&id=1770244196630&lsid=60351629564011637&vid=2,common_path,no,no,
+equitymaster com,equitymaster.com,https://www.equitymaster.com/premium-subscriptions,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+es tradingview com,es.tradingview.com,https://es.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+esquire com,esquire.com,https://shop.esquire.com/esquire-premium-membership.html,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+eurogamer de,eurogamer.de,https://www.eurogamer.de/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+eurogamer pl,eurogamer.pl,https://www.eurogamer.pl/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+eurogamer pt,eurogamer.pt,https://www.eurogamer.pt/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+ewrc results com,ewrc-results.com,https://ewrc-results.com/subscription,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+expansion com,expansion.com,https://www.expansion.com,fallback_homepage,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+fangraphs com,fangraphs.com,https://www.fangraphs.com/subscribe,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+faz net,faz.net,https://www.faz.net/aktuell,fallback_homepage,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+floridatoday com,floridatoday.com,https://subscribe.floridatoday.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+fool com,fool.com,https://www.fool.com/order/fe_offers/wf/0b8d3322-ff9d-4c64-903c-e31a7b5fbd3c?c=sa-inv-btr&source=esasmimu0210001&testId=sa-bbn-social&cellId=2&campaign=sa-bbn-evergreen&source_system_name=fool_splitter,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+forbes com,forbes.com,https://account.forbes.com/membership,common_path,no,no,
+fortune com,fortune.com,https://fortune.com/subscribe,common_path,yes,no,likely JS-rendered content
+fr tradingview com,fr.tradingview.com,https://fr.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+freep com,freep.com,https://subscribe.freep.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+ft com,ft.com,https://subs.ft.com/viewsubscriptions,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+fxstreet com,fxstreet.com,https://www.fxstreet.com/subscriptions,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+gq com,gq.com,https://www.gq.com/v2/offers/gqa01035?source=SITE_0_CDS_GQM_GLOBAL_HCL_0_CIRCULES_REDIRECT_ZZ,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+grimsbytelegraph co uk,grimsbytelegraph.co.uk,https://www.reachsubs.co.uk/GBT,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+harpersbazaar com,harpersbazaar.com,https://store.harpersbazaar.com/harper-s-bazaar-magazine.html?source=har_edit_subscribe_vanityurl&utm_source=vanity&utm_medium=offline&utm_campaign=edletter_organic_social,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI | physical magazine/newspaper subscription
+hellomagazine com,hellomagazine.com,https://www.hellomagazine.com/subscribe,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+heraldtribune com,heraldtribune.com,https://subscribe.heraldtribune.com/offers?gps-source=CPTOPNAVBAR&itm_campaign=2024MODV3&itm_medium=ONSITE&success-url=https://www.heraldtribune.com/&itm_content=bluebutton,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+hollywoodreporter com,hollywoodreporter.com,https://subscriptions.hollywoodreporter.com/site/thr-subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+homesandgardens com,homesandgardens.com,https://subscribe.arcade.homesandgardens.com/us/homes-and-gardens-subscription/dp/20a97aae,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+hulldailymail co uk,hulldailymail.co.uk,https://www.reachsubs.co.uk/HDF,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+iex nl,iex.nl,https://premium.iex.nl/?utm_campaign=always_on&utm_medium=paywall&utm_source=home&utm_content=word_abonnee_main,fallback_homepage,yes,yes,likely JS-rendered content | possible modal or overlay UI
+in tradingview com,in.tradingview.com,https://in.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+indianexpress com,indianexpress.com,https://indianexpress.com/subscriptions,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+indiatoday in,indiatoday.in,https://subscriptions.intoday.in/indiatoday?utm_source=gwebsite,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+indystar com,indystar.com,https://subscribe.indystar.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+inquirer com,inquirer.com,https://www.inquirer.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+interestingengineering com,interestingengineering.com,https://interestingengineering.com/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+irishtimes com,irishtimes.com,https://www.irishtimes.com/subscribe/us/sale,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+jamaicaobserver com,jamaicaobserver.com,https://www.jamaicaobserver.com/purchases,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+journalstar com,journalstar.com,https://subscribe.journalstar.com/subscribe/?Domain=journalstar.com,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+jp tradingview com,jp.tradingview.com,https://jp.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+jsonline com,jsonline.com,https://subscribe.jsonline.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+khaleejtimes com,khaleejtimes.com,https://subscriptions.khaleejtimes.com/home/subscription,homepage_link,yes,yes,likely JS-rendered content | possible modal or overlay UI
+kr tradingview com,kr.tradingview.com,https://kr.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+lebanon24 com,lebanon24.com,https://www.lebanon24.com/subscribe,common_path,no,yes,possible modal or overlay UI
+letsrun com,letsrun.com,https://www.letsrun.com/subscribe,fallback_homepage,yes,yes,likely JS-rendered content | possible modal or overlay UI
+livelaw in,livelaw.in,https://www.livelaw.in/pricing,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+mainichi jp,mainichi.jp,https://mainichi.jp/info/subscribe,common_path,no,yes,possible modal or overlay UI
+manilatimes net,manilatimes.net,https://www.manilatimes.net/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+masslive com,masslive.com,https://www.masslive.com:443/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+mercurynews com,mercurynews.com,https://checkout.mercurynews.com/Subscriptionmultiproduct7?g2i_source=nav&g2i_medium=link&g2i_campaign=nav,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+mlive com,mlive.com,https://www.mlive.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+myfinal11 in,myfinal11.in,https://myfinal11.in/subscription,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+naplesnews com,naplesnews.com,https://subscribe.naplesnews.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+nationalgeographic com,nationalgeographic.com,https://www.nationalgeographic.com/subscribe/magazines?cmpid=int_org=ngp::int_mc=website::int_src=ngp::int_cmp=subs_ngm::int_add=navsubscribe_us,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+nbc 2 com,nbc-2.com,https://www.gulfcoastnewsnow.com/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+newatlas com,newatlas.com,https://newatlas.com/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+news press com,news-press.com,https://subscribe.news-press.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+newsnow co uk,newsnow.co.uk,https://www.newsnow.co.uk/subscribe?utm_source=newsnow&utm_campaign=domains&utm_medium=web&utm_content=newsnow.co.uk,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+newsnow com,newsnow.com,https://www.newsnow.com/subscribe?utm_source=newsnow&utm_campaign=domains&utm_medium=web&utm_content=newsnow.com,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+newyorker com,newyorker.com,https://www.newyorker.com/v2/offers/tnya01034?source=Site_0_HCL_NYR_MAGSUBHOME_0_CAMPAIGN_ROTATION_2024_ZZ&cds_page_id=279670&cds_mag_code=NYR,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+nfl com,nfl.com,https://id.nfl.com/select-subscription?p=gc-al-dt-al&campaign=nfl-np-iw-po-2065677,homepage_link,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+nj com,nj.com,https://www.nj.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+nola com,nola.com,https://www.nola.com/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+northjersey com,northjersey.com,https://subscribe.northjersey.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+nwitimes com,nwitimes.com,https://subscribe.nwitimes.com/subscribe/?Domain=nwitimes.com&SubscriberLevel=DOP,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+nydailynews com,nydailynews.com,https://subscription.nydailynews.com/TemplateA?coupon=Promo%20Code,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+nypost com,nypost.com,https://nypost.com/account/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+nzherald co nz,nzherald.co.nz,https://www.nzherald.co.nz/my-account/subscription/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+odt co nz,odt.co.nz,https://www.odt.co.nz/subscribe-now,common_path,no,yes,possible modal or overlay UI
+omaha com,omaha.com,https://subscribe.omaha.com/subscribe/?Domain=omaha.com&SubscriberLevel=DOP,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+on3 com,on3.com,https://www.on3.com/join,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+oprahdaily com,oprahdaily.com,https://membership.oprahdaily.com/oprah-daily-insider-membership-all-access-3499.html?cds_tracking_code=in_book_member_spotlight,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+oregonlive com,oregonlive.com,https://www.oregonlive.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+oreilly com,oreilly.com,https://www.oreilly.com/online-learning/pricing.html,common_path,no,yes,possible modal or overlay UI
+orlandosentinel com,orlandosentinel.com,https://mktops.orlandosentinel.com/subscriptions/land-premium/?market=os&source=manage&g2i_source=MC&g2i_medium=manage_member_center&g2i_campaign=seo,common_path,no,yes,possible modal or overlay UI
+outsideonline com,outsideonline.com,https://www.outsideonline.com/outsideplus-usss/?scope=anon,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+oxfordmail co uk,oxfordmail.co.uk,https://www.oxfordmail.co.uk/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+palmbeachpost com,palmbeachpost.com,https://subscribe.palmbeachpost.com/offers,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+pennlive com,pennlive.com,https://www.pennlive.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+people com,people.com,https://www.magazines.com/people-magazine.html?utm_source=people.com&utm_medium=owned&utm_campaign=ppl_dig_newsroom_subscriptions,common_path,no,yes,possible modal or overlay UI | physical magazine/newspaper subscription
+perthnow com au,perthnow.com.au,https://subscriber.thewest.com.au/#packages,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+pjmedia com,pjmedia.com,https://pjmedia.com/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+premiumtimesng com,premiumtimesng.com,https://members.premiumtimesng.com/subscriptions,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+pressreader com,pressreader.com,https://www.pressreader.com/subscribe,common_path,no,no,
+prevention com,prevention.com,https://membership.prevention.com,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+rappler com,rappler.com,https://www.rappler.com/plus,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+realsimple com,realsimple.com,https://www.magazines.com/real-simple-magazine.html?utm_source=engage&utm_medium=internal&utm_campaign=rsp_care_crumb,common_path,no,yes,possible modal or overlay UI | physical magazine/newspaper subscription
+richmond com,richmond.com,https://subscribe.richmond.com/subscribe/?Domain=richmond.com&SubscriberLevel=DOP,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+roadandtrack com,roadandtrack.com,https://shop.roadandtrack.com/road-track-all-access-membership-2.html?cds_tracking_code=rttopnav&_gl=1*1l9y651*_gcl_au*MTEzNTAxMjg2MS4xNzcwMjYzNTYw*_ga*MTM2OTgyNTAyMS4xNzcwMjYzNTUx*_ga_P188K0T812*czE3NzAyNjM1NTEkbzEkZzEkdDE3NzAyNjM2NzAkajYwJGwwJGgw*_fplc*ZU5wemxsaGc3THVqbFpDeHdlbVNSZmp2cjZsTlJNRzJkVWRDcE1LaiUyQjhLQ3c3RDlkVHlTWkFBeEZRZTdxY01rWnRyRFFCT1huWk9QWlBPb2ZjckxlYkQ0a0I0SGxwQXVCNkUlMkJBQTdxSVVoeER4USUyQmtobjgzNjNqOUowZlJRJTNEJTNE,common_path,no,no,
+rollingstone com,rollingstone.com,https://www.rollingstone.com/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+ru tradingview com,ru.tradingview.com,https://ru.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+sandiegouniontribune com,sandiegouniontribune.com,https://checkout.sandiegouniontribune.com,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+schwarzwaelder bote de,schwarzwaelder-bote.de,https://www.schwarzwaelder-bote.de/staticcontent/schwarzwaelder_bote/aboverkauf/sb-produkte-uebersicht.html,common_path,no,no,
+scientificamerican com,scientificamerican.com,https://www.scientificamerican.com/getsciam/?utm_source=site&utm_medium=display&utm_term=homepage_button,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+seekingalpha com,seekingalpha.com,https://seekingalpha.com/subscriptions,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+smh com au,smh.com.au,https://subscribe.smh.com.au/?promote_channel=PR_SMHP_YDTKC&utm_source=SMHNewspaper&utm_medium=Print&utm_campaign=YDTKConversion,common_path,no,no,
+snopes com,snopes.com,https://www.snopes.com/support,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+southernliving com,southernliving.com,https://www.magazines.com/southern-living-magazine.html?utm_source=southernliving.com,common_path,no,yes,possible modal or overlay UI | physical magazine/newspaper subscription
+sportsline com,sportsline.com,https://www.sportsline.com/join,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+stltoday com,stltoday.com,https://subscriber.stltoday.com/cgi-bin/accept,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+sueddeutsche de,sueddeutsche.de,https://www.sueddeutsche.de,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+sun sentinel com,sun-sentinel.com,https://mktops.sun-sentinel.com/subscriptions/land-premium/?market=ss&source=manage&g2i_source=MC&g2i_medium=manage_member_center&g2i_campaign=seo,common_path,no,yes,possible modal or overlay UI
+sundayworld co za,sundayworld.co.za,https://sundayworld.co.za/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+syracuse com,syracuse.com,https://www.syracuse.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+t3 com,t3.com,https://www.t3.com/tech/cameras,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+tampabay com,tampabay.com,https://subscribe.tampabay.com,common_path,no,no,
+tbsnews net,tbsnews.net,https://epaper.tbsnews.net/grab-your-subscription,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+techadvisor com,techadvisor.com,https://www.techadvisor.com/magazine,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI | physical magazine/newspaper subscription
+th tradingview com,th.tradingview.com,https://th.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+theage com au,theage.com.au,https://subscribe.theage.com.au/?promote_channel=PR_AGEP_YDTKC&utm_source=TheAgeNewspaper&utm_medium=Print&utm_campaign=YDTKConversion,common_path,no,no,
+theathletic com,theathletic.com,https://www.nytimes.com/subscription/athletic,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+theblaze com,theblaze.com,https://subscribe.blazemedia.com,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+thedailybeast com,thedailybeast.com,https://www.thedailybeast.com:443/membership,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+theepochtimes com,theepochtimes.com,https://subscribe.theepochtimes.com/p/?page=digitalsub,homepage_link,no,no,
+theglobeandmail com,theglobeandmail.com,https://subscriptions.theglobeandmail.com/globe-products,common_path,yes,no,likely JS-rendered content
+thehindu com,thehindu.com,https://www.thehindu.com/subscription,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+thehindubusinessline com,thehindubusinessline.com,https://www.thehindubusinessline.com/subscription,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+thenationalnews com,thenationalnews.com,https://www.thenationalnews.com:443/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+thestar com,thestar.com,https://www.thestar.com/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+thestar com my,thestar.com.my,https://www.thestar.com.my/subscribe,common_path,no,yes,possible modal or overlay UI
+thetimes co uk,thetimes.co.uk,https://www.thetimes.com/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+time com,time.com,https://get.time.com/pubs/MX/TIM/TIM_OrderPage_Alt_Payment_ApplePay_Test.jsp?cds_page_id=282545&cds_mag_code=TIM&id=1770244252404&lsid=60351630523053245&vid=1&utm_medium=t-site&utm_content=bau+feb+na+20260202+na+na+na&cds_response_key=IF3VSIT01&utm_source=default-subscribe-link&utm_campaign=consumermarketing+site-reg-paid+all,common_path,no,yes,possible modal or overlay UI
+timesofmalta com,timesofmalta.com,https://timesofmalta.com/subscribe,common_path,yes,no,likely JS-rendered content
+tomshardware com,tomshardware.com,https://www.tomshardware.com/subscription,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+tr tradingview com,tr.tradingview.com,https://tr.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+tradingview com,tradingview.com,https://www.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+travelandleisure com,travelandleisure.com,https://www.magazines.com,common_path,no,yes,possible modal or overlay UI | physical magazine/newspaper subscription
+tribuneindia com,tribuneindia.com,https://www.tribuneindia.com:443/subscription,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+trinidadexpress com,trinidadexpress.com,https://trinidadexpress.com/subscribe,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+tsn ca,tsn.ca,https://www.tsn.ca:443/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+tulsaworld com,tulsaworld.com,https://subscribe.tulsaworld.com/subscribe/?Domain=tulsaworld.com&SubscriberLevel=DOP,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+us cnn com,us.cnn.com,https://us.cnn.com/subscription,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+usmagazine com,usmagazine.com,https://order.usmagazine.com/I3YACELS,common_path,yes,no,no prices found in static HTML | likely JS-rendered content
+vice com,vice.com,https://www.vice.com/en/membership,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+vn tradingview com,vn.tradingview.com,https://vn.tradingview.com/pricing,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+vogue com,vogue.com,https://www.vogue.com/v2/offers/voga01070?source=SITE_0_VOG_HCL_MAGSUBHOME_SUBSCRIBE_LINK_FAILSAFE_0_CAMPAIGN_ROTATION_2024,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+walesonline co uk,walesonline.co.uk,https://www.walesonline.co.uk/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+weather com,weather.com,https://weather.com/subscribe,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+wired com,wired.com,https://www.wired.com/v2/offers/wira01032?source=site_0_WIR_MAGSUBHOME_SUBSCRIBE_LINK_ZZ,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI
+womanandhome com,womanandhome.com,https://www.womanandhome.com/travel,common_path,yes,yes,no prices found in static HTML | likely JS-rendered content | possible modal or overlay UI
+womansday com,womansday.com,https://shop.womansday.com/woman-s-day-magazine.html?source=wdy_edit_subscribe_vanityurl&utm_source=vanity&utm_medium=offline&utm_campaign=edletter_organic_social,common_path,yes,yes,likely JS-rendered content | possible modal or overlay UI | physical magazine/newspaper subscription
