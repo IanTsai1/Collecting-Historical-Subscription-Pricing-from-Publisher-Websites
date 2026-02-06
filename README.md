@@ -313,9 +313,4 @@ archive_url
 
 ## Documentation
 
-See **`CHALLENGES.md`** for:
-- Deviations from protocol
-- Assumptions made
-- Edge cases encountered
-- Ambiguity resolution strategies
-- Known limitations
+See **`CHALLENGES.md`** for more
