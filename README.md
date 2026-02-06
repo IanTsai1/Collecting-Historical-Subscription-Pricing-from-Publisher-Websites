@@ -12,7 +12,8 @@ This project collects historical subscription pricing data from publisher websit
 
 Upon completion, this project produces:
 
-1. **`historical_pricing_snapshots2.csv`** – Final CSV dataset containing all collected pricing information
+1. **`historical_pricing_snapshots.csv`** – Final CSV dataset containing all collected pricing information
+    - currently in progress, due to difficulty in accessing Wayback Machine API
 2. **Three Python scripts** – Self-contained, documented, runnable code
 3. **`CHALLENGES.md`** – Documentation of challenges, deviations, and assumptions
 
@@ -39,7 +40,7 @@ Upon completion, this project produces:
   - If page lacks both newsletter and commerce signals → marked as "no subscription"
   - Only flags as subscription if it has commerce + specific paid language
 
-- **Output:** `domains_with_subscription_status2.csv`
+- **Output:** `domains_with_subscription_status.csv`
   - Columns: `domain`, `subscription_status` (subscription/no subscription/inaccessible), `evidence_url`
   - Uses `ThreadPoolExecutor` with 20 workers for parallel processing
 
@@ -85,8 +86,7 @@ Once a URL identified, the script inspects the page for **feasibility indicators
 - Uses `ThreadPoolExecutor` with 24 workers for parallel processing
 
 **Key Decisions:**
-- Distinguishes feasibility – sites with dynamic pricing require special handling vs. static HTML extraction
-- Flags problematic pages so downstream processing can handle them appropriately
+- Performed manual filtering after running this program to ensure high data quality
 
 ---
 
@@ -102,8 +102,7 @@ Once a URL identified, the script inspects the page for **feasibility indicators
 - Parameters:
   - Date range: Jan 1, 2021 to Feb 1, 2026 (inclusive)
   - HTTP status filter: 200 only (successful responses)
-  - Collapse: `digest` (deduplicates identical content snapshots to reduce noise)
-  
+
 - **Returns:** List of (timestamp, datetime) tuples sorted chronologically
 
 **§ Phase 2: Weekly Grouping & First Snapshot Selection**
@@ -141,8 +140,6 @@ For standalone prices without units: $99, £59.99
    - Computes character distance from cue start/end to price start/end
    - Assigns type based on closest cue (minimum distance)
    
-4. **Extra guard:** If "annual" language found within 120 chars, force type to "annual"
-   - Handles cases like: "regular annual rates ... $99.99 ... $49.99"
 
 - **Advantage:** Handles flexible layouts; prices separated from unit labels
 
@@ -168,7 +165,18 @@ Each row represents **one price found in one snapshot**:
 - Thread-local session management ensures connection reuse and thread safety
 - `TIMEOUT = 10` seconds per request to handle slow/unresponsive servers
 
-**Output:** `historical_pricing_snapshots2.csv`
+**Output:** `historical_pricing_snapshots.csv`
+
+**Problem:**
+
+
+**Challenges:**
+- snapshots 
+        - CDX API used to access Wayback Machine seems to have an API limit or server problem, so I can't test my updated code 
+- each page might have two product; how do you differntiate between the two
+    - digital access
+    - unlimited digital access
+
 
 ---
 
@@ -186,7 +194,7 @@ news_domains.csv
     │ • Parallel: ThreadPoolExecutor(20 workers)
     │
     ↓
-domains_with_subscription_status2.csv
+domains_with_subscription_status.csv
     │ Columns: domain, subscription_status, evidence_url
     │
     ↓
@@ -197,8 +205,10 @@ domains_with_subscription_status2.csv
     │ • Checks: Wayback availability
     │ • Parallel: ThreadPoolExecutor(24 workers)
     │
+manual filtering of price url
+    | • clicked into every url to ensure data quality is good
     ↓
-domains_with_pricing_page1.csv
+domains_with_pricing_page.csv
     │ Columns: domain, pricing_url, dynamic_components, popup_overlay,
     │          detected_prices, wayback_available, notes
     │
@@ -211,7 +221,7 @@ domains_with_pricing_page1.csv
     │ • Parallel: ThreadPoolExecutor(10 workers)
     │
     ↓
-historical_pricing_snapshots2.csv ← FINAL OUTPUT
+historical_pricing_snapshots.csv ← FINAL OUTPUT
     Columns: domain, pricing_page_url, week_start, snapshot_date,
              snapshot_timestamp, pricing_type, price_shown, reason_code,
              archive_url
@@ -223,12 +233,10 @@ historical_pricing_snapshots2.csv ← FINAL OUTPUT
 
 | Decision | Rationale |
 |----------|-----------|
-| **Wayback Machine (CDX API)** | Scalable, comprehensive historical coverage 2021–2026, no authentication required, no rate limiting issues |
-| **Weekly snapshots** | Balances temporal coverage (265 weeks) with manageable data volume; more frequent than monthly, less noisy than daily |
-| **First-of-week selection** | Consistent approach; reduces bias from snapshot distribution patterns |
+| **Wayback Machine (CDX API)** | Scalable, comprehensive historical coverage 2021–2026, no authentication required BUT there might be a rate limit? |
 | **Stage A + Stage B extraction** | Handles both well-marked prices (e.g., "$99/month") and contextually-inferred pricing (e.g., "$99" near "annual") for maximum recall |
 | **Proximity-based cue matching** | Robust to layout variations, HTML wrapping, and scattered text; distance metric provides confidence scoring |
-| **Thread-local sessions** | Ensures thread safety; connection pooling speeds up parallel requests |
+| **Thread-local sessions** | Ensures thread safety while having optimization; connection pooling speeds up parallel requests |
 | **Reason codes** | Enables debugging, analysis of failure modes, and quality assessment |
 | **Collapse by digest** | CDX API deduplicates identical snapshots by content hash; reduces processing of redundant captures |
 | **Newsletter filtering** | Conservatively distinguishes free newsletters from paid subscriptions to avoid false positives |
@@ -255,9 +263,9 @@ python3 find_subscription_page.py
 python3 collect_historical_pricing.py
 
 # Check results
-ls -lh Data/domains_with_subscription_status2.csv
-ls -lh Data/domains_with_pricing_page1.csv
-ls -lh Data/historical_pricing_snapshots2.csv
+ls -lh Data/domains_with_subscription_status.csv
+ls -lh Data/domains_with_pricing_page.csv
+ls -lh Data/historical_pricing_snapshots.csv
 ```
 
 Each script reads from the previous output and writes its results to a new CSV.

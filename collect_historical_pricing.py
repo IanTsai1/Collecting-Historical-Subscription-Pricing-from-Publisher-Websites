@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 INPUT_CSV = "Data/has_subscribe_pages.csv"
-OUTPUT_CSV = "Data/historical_pricing_snapshots2.csv"
+OUTPUT_CSV = "Data/historical_pricing_snapshots.csv"
 
 MAX_WORKERS = 10
 TIMEOUT = 10

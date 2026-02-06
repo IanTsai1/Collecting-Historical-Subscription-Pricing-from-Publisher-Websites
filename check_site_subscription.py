@@ -146,7 +146,7 @@ def main():
 
     result_df = pd.DataFrame(results, columns=["domain", "subscription_status", "evidence_url"])
     df = df.merge(result_df, on="domain", how="left")
-    df.to_csv("domains_with_subscription_status2.csv", index=False)
+    df.to_csv("domains_with_subscription_status.csv", index=False)
 
 if __name__ == "__main__":
     main()
